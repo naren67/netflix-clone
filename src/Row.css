@@ -1,0 +1,37 @@
+.row__poster {
+  width: 100%;
+  object-fit: contain;
+  height: 110px;
+  margin-right: 10px;
+  transition: 0.5s ease;
+  cursor: pointer;
+}
+
+.row__posters {
+  display: flex;
+  overflow-x: scroll;
+  overflow-y: hidden;
+  padding: 20px;
+}
+
+.row__posters::-webkit-scrollbar {
+  display: none;
+}
+
+.row__poster:hover {
+  transform: scale(1.08);
+}
+
+/* className={`row__poster ${isLargePath && row__posterLarge} */
+
+.row__posterLarge {
+  height: 260px;
+}
+
+.row__posterLarge:hover {
+  transform: scale(1.09);
+}
+
+.row {
+  margin-left: 10px;
+}

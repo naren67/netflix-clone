@@ -1,0 +1,28 @@
+.navbar {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  background: rgba(17, 17, 17, 0.598);
+}
+
+.navbar__logo {
+  width: 133.2px;
+  height: 36px;
+  padding: 20px 30px;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+.navbar__avatar {
+  height: 40px;
+  padding: 20px 30px;
+  object-fit: contain;
+  cursor: pointer;
+}
+/* 
+.navbar__black {
+  background: rgba(17, 17, 17, 0.598);
+} */
